@@ -102,6 +102,7 @@ Tick() {
                 WinWaitActive("ahk_id " hwnd, , 1)
                 MouseMove(1, 0, 0, "R")
                 MouseMove(-1, 0, 0, "R")
+                Send("{Shift}")
                 Sleep(pauseMs)
             }
         }
